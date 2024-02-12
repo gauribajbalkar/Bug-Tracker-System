@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Bug">
+  <grid id="27dc6" binding="bugPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="-3" y="-2" width="584" height="619"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="5479" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospac821 BT" size="26" style="1"/>
+          <text value="BUG TRACKER SYSTEM"/>
+        </properties>
+      </component>
+      <grid id="483b6" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="45e71" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospac821 BT" size="18" style="1"/>
+              <text value="BUG ID : "/>
+            </properties>
+          </component>
+          <component id="25cb6" class="javax.swing.JTextField" binding="idData">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a011" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospac821 BT" size="18" style="1"/>
+              <labelFor value="a19e4"/>
+              <text value="PRODUCT :   "/>
+            </properties>
+          </component>
+          <component id="3e806" class="javax.swing.JComboBox" binding="environment">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Windows 11"/>
+                <item value="Linux"/>
+                <item value="Ubuntu"/>
+              </model>
+            </properties>
+          </component>
+          <component id="a19e4" class="javax.swing.JComboBox" binding="product">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="JavaEdit"/>
+                <item value="SoundRx"/>
+                <item value="WordSolution"/>
+              </model>
+            </properties>
+          </component>
+          <component id="20d47" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospac821 BT" size="18" style="1"/>
+              <text value="ENVIRONMENT :  "/>
+            </properties>
+          </component>
+          <component id="e015f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospac821 BT" size="18" style="1"/>
+              <text value="TYPE :  "/>
+            </properties>
+          </component>
+          <component id="cf678" class="javax.swing.JComboBox" binding="type">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="GUI"/>
+                <item value="Server"/>
+                <item value="Database"/>
+                <item value="Network"/>
+              </model>
+            </properties>
+          </component>
+          <component id="e18b8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospac821 BT" size="18" style="1"/>
+              <text value="DESCRIPTION :  "/>
+            </properties>
+          </component>
+          <component id="6ccf6" class="javax.swing.JTextArea" binding="description">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="efa66" class="javax.swing.JComboBox" binding="status">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="New"/>
+                <item value="Assigned"/>
+                <item value="Resolved"/>
+              </model>
+            </properties>
+          </component>
+          <component id="846c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospac821 BT" size="18" style="1"/>
+              <text value="STATUS :  "/>
+            </properties>
+          </component>
+          <vspacer id="d1fee">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <component id="83f8b" class="javax.swing.JButton" binding="ADDRECORDButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospac821 BT" size="18" style="1"/>
+          <text value="ADD RECORD"/>
+        </properties>
+      </component>
+      <component id="ea557" class="javax.swing.JButton" binding="UPDATERECORDButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospac821 BT" size="18" style="1"/>
+          <text value="UPDATE RECORD"/>
+        </properties>
+      </component>
+      <grid id="29f28" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="a5789">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="616f" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
